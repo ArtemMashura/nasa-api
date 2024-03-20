@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.booksContainer {
+  margin-top: 50px;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: horizontal;
+}
+
+.book {
+  flex: 1 0 21%;
+  border: 1px gray solid;
+}
+
+.author {
+  cursor: pointer;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: auto 34px;
+
+}
+
+.bookmark {
+  cursor: pointer;
+  float: right;
+  width: 32px;
+  height: 32px;
+}
